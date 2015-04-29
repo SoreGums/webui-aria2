@@ -27,7 +27,7 @@ Steps
 8. save the file making changes where appropriate _(follow the comments)_
 9. run ```node send.js```
 10. webserver is now running on port 3000 and will serve files from the directory specified
-11. to test open up http://serverip:3000 - should get a response from the webserver, 2 lines of text, any browser errors and something hasn't been done properly, check IP/PORT etc
+11. to test open up http://serverip:3000 - should get a response from the webserver ```ENOENT, stat '/home/aria2/downloads/index.html'```, any browser errors and something hasn't been done properly, check IP/PORT etc
 12. go back to webui-aria2
 13. go to ```Settings > Connection Settings```
 14. scroll down to Direct Download and put ```http://serverip:3000/``` in base URL field _(make sure have the / on the end)_
